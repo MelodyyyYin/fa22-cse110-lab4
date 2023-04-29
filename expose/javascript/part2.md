@@ -8,8 +8,8 @@
 <b>Question 8</b>:[50, 100, 150], because discounted and return statement is in the same block scope. We modify discounted in the forloop but did not defined in forloop. <br>
 <b>Question 9</b>: error, because we cannot access let if it's not in the same block scope. i is define in the for loop block and line 12 is not. <br>
 <b>Question 10</b>: print 3, because we can access const if varible length and line 12 in the same block scope. <br>
-<b>Question 11</b>: the result is [50, 100, 150]
-runtime error, because we cannot modify the const variable. In the forloop, we are trying to modify the const, which cause error.<br>
+<b>Question 11</b>: the result is [50, 100, 150] Because push the value does not modify the type of the variable, we could still push the price, but we cannot modify the price already in the array. 
+<br>
 <b>Question 12</b>:
 1. `alert(student.name);`
 2. `alert(student["Grad Year"]);`
